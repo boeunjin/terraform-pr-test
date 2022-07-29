@@ -19,10 +19,10 @@ variable "pvc_cidr" {
     type = string
     default = "10.1.0.0/24"
 }
-variable "subnet_cidr" {
-    type = string
-    default = "100.64.0.0/26"
-}
+# variable "subnet_cidr" {
+#     type = string
+#     default = "100.64.0.0/26"
+# }
 
 
 # ec2
