@@ -2,7 +2,7 @@
 variable "env" {
     default = "dev"
 }
-variable "prj" {
+variable "pjt" {
     default = "test-project"
 }
 variable "svc" {
@@ -26,9 +26,9 @@ variable "subnet_cidr" {
 
 
 # # ec2
-variable "instance_type" {
-    default = "t2.micro"
-}
-variable "instance_ami" {
-    default = "ami-0cvec04a61be382d9"
-}
+# variable "instance_type" {
+#     default = "t2.micro"
+# }
+# variable "instance_ami" {
+#     default = "ami-0cvec04a61be382d9"
+# }
