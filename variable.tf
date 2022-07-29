@@ -21,7 +21,7 @@ variable "pvc_cidr" {
 }
 variable "subnet_cidr" {
     type = string
-    default = "10.1.0.0/26"
+    default = "100.64.0.0/26"
 }
 
 
